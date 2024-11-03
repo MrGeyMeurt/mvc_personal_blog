@@ -4,10 +4,32 @@
 ## Description
 This project is a student exercise to build a blog using the MVC (Model-View-Controller) architecture. The blog is designed as a simple, functional web application that demonstrates the MVC pattern using HTML, CSS, Bootstrap 5, PHP, MySQL, and jQuery. The project is hosted locally using WAMP Server with PHPMyAdmin for database management.
 
+## Project Status
+- **Current State**: Functional, with potential for further development.
+- **Future Updates**: No scheduled updates, but enhancements could include user authentication, a commenting system, and admin panel improvements.
+
 ## Update
 - **27/07/2022**: 1.0 Release
 - **29/07/2024**: Fixed errors leading to a blank screen and changed the database name.
 - **01/11/2024**: Rework of the ``README.mt`` and adding a ``LICENSE.mt``
+
+## Installation
+1. **Download or clone the project repository**
+
+2. **Setup Database**
+- Open **phpMyAdmin** and create a new database (e.g., ``mvc_blog``).
+- Import the SQL file found at ``MVC/bdd/monsite.sql`` to set up tables and data.
+
+3. **Update Database Connection**
+- In ``MVC/controllers/Login.php``, make sure the database settings match yours:
+  - **Host**: ``localhost``
+  - **Database Name**: ``mvc_blog``
+  - **User**: ``root``
+  - **Password**: (leave blank unless specified)
+
+4. **Start the Server**
+- Run **WAMP** (or any local server that supports PHP/MySQL).
+- Open ``http://localhost/project-folder/`` in your browser to view the site.
 
 ## Project Structure
 ``/media``: Root directory for images used on the site
@@ -35,22 +57,15 @@ This project is a student exercise to build a blog using the MVC (Model-View-Con
 - **Database**: MySQL (managed via phpMyAdmin 5.0.2)
 - **Local Server**: WAMP Server
 
-## Database Information
-The SQL file for the database can be found at: ``MVC/bdd/monsite.sql``
-
-Database connection is handled in: ``MVC/controllers/Login.php``
-- **phpMyAdmin Credentials**:
-  - **Username**: root
-  - **Password**: (leave blank)
-  - **Server**: MySQL
-
 ## Backoffice
 - To access the backoffice, click on the copyright symbol © in the footer.
-> [!TIP]
-> If you hover over the 'Se connecter' button, a tooltip appears displaying the password.
 - **Portal Credentials**:
   - **Username**: admin
   - **Password**: password
+> [!TIP]
+> If you hover over the 'Se connecter' button, a tooltip appears displaying the password.
+
+
 > [!NOTE]
 > If an image is added without specifying a path, the default path will be ``/media``.
 
@@ -61,8 +76,4 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 Thanks to the collaborators and everyone who supported this student project.
 - Laure.M - Technical Assistance
 
-Special thanks to the resources used for illustrations: [unDraw](https://undraw.co/illustrations) (free illustrations).
-
-## Project Status
-- **Current State**: Functional, with potential for further development.
-- **Future Updates**: No scheduled updates, but enhancements could include user authentication, a commenting system, and admin panel improvements.
+Thanks to [unDraw](https://undraw.co/illustrations) for providing free illustrations used in this project.
