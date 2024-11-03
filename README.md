@@ -1,4 +1,4 @@
-![index](https://github.com/user-attachments/assets/4cf921d1-c2db-4a9e-963d-6b34260e534b)
+![index](https://github.com/user-attachments/assets/12bc55c8-4228-4163-a02e-1e07b0b4e159)
 # MVC Blog Project
 
 ## Description
