@@ -13,8 +13,19 @@ This project is a student exercise to build a blog using the MVC (Model-View-Con
 - **29/07/2024**: Fixed errors leading to a blank screen and changed the database name.
 - **01/11/2024**: Rework of the ``README.mt`` and adding a ``LICENSE.mt``
 
+## Features
+- **Responsive Design**: Utilized Bootstrap 5 for responsiveness across devices.
+- **MVC Architecture**: Organized code into Models, Views, and Controllers.
+- **Basic Blog Functionality**: Users can read blog posts, and administrators can manage posts via the backoffice.
+
+## Technologies Used
+- **Frontend**: HTML, CSS, Bootstrap 5, jQuery 3.6.0
+- **Backend**: PHP
+- **Database**: MySQL (managed via phpMyAdmin 5.0.2)
+- **Local Server**: WAMP Server
+
 ## Installation
-1. **Download or clone the project repository**
+1. **Download or clone the repository**
 
 2. **Setup Database**
 - Open **phpMyAdmin** and create a new database (e.g., ``mvc_blog``).
@@ -45,17 +56,6 @@ This project is a student exercise to build a blog using the MVC (Model-View-Con
 ``/layout``: Homepage layout
 
 ``/main``: Page selection display
-
-## Features
-- **Responsive Design**: Utilized Bootstrap 5 for responsiveness across devices.
-- **MVC Architecture**: Organized code into Models, Views, and Controllers.
-- **Basic Blog Functionality**: Users can read blog posts, and administrators can manage posts via the backoffice.
-
-## Technologies Used
-- **Frontend**: HTML, CSS, Bootstrap 5, jQuery 3.6.0
-- **Backend**: PHP
-- **Database**: MySQL (managed via phpMyAdmin 5.0.2)
-- **Local Server**: WAMP Server
 
 ## Backoffice
 - To access the backoffice, click on the copyright symbol © in the footer.
