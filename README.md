@@ -2,7 +2,7 @@
 # MVC Blog Project
 
 ## Description
-This project is a student exercise to build a blog using the MVC (Model-View-Controller) architecture. The blog is designed as a simple, functional web application that demonstrates the MVC pattern using HTML, CSS, Bootstrap 5, PHP, MySQL, and jQuery. The project is hosted locally using WAMP Server with PHPMyAdmin for database management.
+This project is a student exercise to build a blog using the MVC (Model-View-Controller) architecture. The blog is designed as a simple, functional web application that demonstrates the MVC pattern. The project is hosted locally.
 
 ## Project Status
 - **Current State**: Functional, with potential for further development.
