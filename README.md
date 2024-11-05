@@ -69,9 +69,6 @@ This project is a student exercise to build a blog using the MVC (Model-View-Con
 > [!NOTE]
 > If an image is added without specifying a path, the default path will be ``/media``.
 
-## License
-This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
 ## Acknowledgments
 Thanks to the collaborators and everyone who supported this student project.
 - Laure.M - Technical Assistance
