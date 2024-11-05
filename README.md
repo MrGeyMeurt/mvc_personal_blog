@@ -6,12 +6,12 @@ This project is a student exercise to build a blog using the MVC (Model-View-Con
 
 ## Project Status
 - **Current State**: Functional, with potential for further development.
-- **Future Updates**: No scheduled updates, but enhancements could include user authentication, a commenting system, and admin panel improvements.
+- **Planned Updates**: No scheduled updates, but enhancements could include user authentication, a commenting system, and admin panel improvements.
 
 ## Update
 - **27/07/2022**: 1.0 Release
 - **29/07/2024**: Fixed errors leading to a blank screen and changed the database name.
-- **01/11/2024**: Rework of the ``README.mt`` and adding a ``LICENSE.mt``
+- **01/11/2024**: Rework of the ``README.md`` and adding a ``LICENSE.md``
 
 ## Features
 - **Responsive Design**: Utilized Bootstrap 5 for responsiveness across devices.
